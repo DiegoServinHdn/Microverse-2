@@ -2,11 +2,39 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sdtyle.css">
+    <style media="screen">
+    nav{
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: aqua;
+
+    }
+    .container {
+      display:-webkit-box;
+      display:-webkit-flex;
+      display:-ms-flexbox;
+      display:flex;
+      -webkit-box-orient:vertical;
+      -webkit-box-direction:normal;
+
+      -webkit-flex-direction:column;
+      -ms-flex-direction:column;
+      flex-direction:column;
+    }
+    @media only screen and (max-width: 770px) {
+      article {
+        display: none;
+      }
+    }
+    </style>
   </head>
 
-  <body>
+  <body class="container">
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <p>hello world! We are developers!</p>
