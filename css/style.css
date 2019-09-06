@@ -6,3 +6,15 @@ nav{
     background-color: aqua;
 
 }
+.container {
+  display: flex;
+  flex-direction: row;
+}
+section {
+  display: flex;
+}
+@media (max-width: 770px) {
+  article {
+    display: none;
+  }
+}
